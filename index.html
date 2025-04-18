@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix Clone</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+    <link rel="stylesheet" href="./stylecustom.css">
+  </head>
+  <body class="bg-custom">
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="./assets/netflix_logo.png" alt="logo netflix" height="40px" /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <a class="text-white"><i class="bi bi-list"></i></a>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white fw-bold" href="#">TV Shows</a>
+            </li>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link text-white" href="#">Movies</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="#">Recently Added</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">My list</a>
+              </li>
+          </ul>
+          <section>
+            <ul class="d-flex align-items-center list-unstyled">
+                <li class="mx-3">
+                    <a class="text-white" href="#"><i class="bi bi-search"></i></a>
+                  </li>
+                  <li class="mx-3">
+                    <a class="text-white" href="#">KIDS</a>
+                  </li>
+                  <li class="mx-3">
+                      <a class="text-white" href="#"><i class="bi bi-bell-fill"></i></a>
+                  </li>
+                <li class="dropdown mx-3">
+                    <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="./assets/avatar.png" height="40" alt="avatar">
+                      </a>
+                      <ul class="dropdown-menu bg-dark" style="left: -150%;">
+                        <li><a class="dropdown-item text-danger " href="#">Profile</a></li>
+                        <li><a class="dropdown-item text-danger " href="#">Setting</a></li>
+                        <li><a class="dropdown-item text-danger " href="#">Contacts</a></li>
+                      </ul>
+                </li>
+            </ul>
+          </section>
+    </div>
+</div>
+</nav>
+<main>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+            <div class="d-flex align-items-center">
+            <h1 class="fw-semibold text-white mx-3">TV Shows</h1>
+            <div class="dropdown ms-3">
+                <button class="btn btn-custom dropdown-toggle fs-5" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Geners
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Commedy</a></li>
+                  <li><a class="dropdown-item" href="#">Horror</a></li>
+                </ul>
+              </div>
+            </div>
+              <div>
+              <a href="#" class="border border-secondary p-1"><i class="bi bi-text-left  text-white"></i></a>
+              <a href="#" class="border border-secondary p-1"><i class="bi bi-grid-fill text-white"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+    <div class="conteiner mt-4">
+        <h2 class="text-white">Trending Now</h2>
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media0.webp" alt="media0"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media1.jpg" alt="media1"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media10.jpg" alt="media10"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media11.jpg" alt="media11"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media12.jpg" alt="media12"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media13.jpg" alt="media13"></div>
+        </div>
+        
+    </div>
+    <div class="conteiner mt-4">
+        <h2 class="text-white">Whatch it Again</h2>
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media14.webp" alt="media14"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media15.jpg" alt="media5"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media16.webp" alt="media16"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media17.jpg" alt="media17"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media18.jpg" alt="media18"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 m-1"><img src="./assets/media/media19.webp" alt="media19"></div>
+        </div>
+        </div>
+    </div>
+    <div class="conteiner mt-4">
+        <h2 class="text-white">New Releases</h2>
+        <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0 "><img src="./assets/media/media20.jpg" alt="media20"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0"><img src="./assets/media/media1.jpg" alt="media21"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0"><img src="./assets/media/media21.webp" alt="media22"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0"><img src="./assets/media/media22.webp" alt="media23"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0"><img src="./assets/media/media23.webp" alt="media24"></div>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-4 col-xl-2">
+            <div class="card border-0"><img src="./assets/media/media24.jpg" alt="media25"></div>
+        </div>
+        </div>
+    </div>
+    </div>
+</main>
+</div>
+<footer>
+    <div>
+        <div class="d-flex flex-column align-items-start">
+            <div>
+                <a href="#" class="text-secondary mx-1 fs-3"><i class="bi bi-facebook"></i></a>
+                <a href="#" class="text-secondary mx-1 fs-3"><i class="bi bi-instagram"></i></a>
+                <a href="#" class="text-secondary mx-1 fs-3"><i class="bi bi-twitter"></i></a>
+                <a href="#" class="text-secondary mx-1 fs-3"><i class="bi bi-youtube"></i></a>
+            </div>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Audio and Subtitles</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Media Center</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Privacy</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Contact Us</a>
+            <a href="#" class="text-decoration-none text-secondary border border-secondary border-1 mx-4 p-1 w-25"> Service Code</a>
+            <a href="#" class="text-decoration-none text-secondary fs-custom mx-3"> &copy; 1997-2019 Netflix, Inc.{i-0d00fcda2fdf9c0de}</a>
+        </div>
+        <div>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Audio Description</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Investor Relations</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Legal Notices</a>
+        </div>
+        <div>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Help Center</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Jobs</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Cookie Preferences</a>
+        </div>
+        <div>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Gift Cards</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Terms of Use</a>
+            <a href="#" class="text-decoration-none text-secondary mx-3">Corporate Information</a>
+        </div>
+    </div>
+</footer>
+<script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>
+<!--  -->
