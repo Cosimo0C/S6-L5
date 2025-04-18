@@ -10,3 +10,7 @@
 .fs-custom {
   font-size: 10px;
 }
+.btn-bg-custom {
+  background-color: #141414;
+  border: 1px solid #2b2f32;
+}
